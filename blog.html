@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-109521951-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109521951-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag("config", "UA-109521951-1");
-    </script>
+  gtag('config', 'UA-109521951-1');
+</script>
 
     <meta charset="utf-8" />
     <title>Qifex - Web Development</title>
@@ -38,16 +33,18 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
+
+
   </head>
 
-  <body>
-    <!--/ Nav Star /-->
+  <body id="page-top">
+    <!--/ Nav Bar /-->
     <nav
       class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll" href="index.html">Qifex</a>
+        <a class="navbar-brand js-scroll" href="index.html#page-top">Qifex</a>
         <button
           class="navbar-toggler collapsed"
           type="button"
@@ -67,26 +64,22 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="index.html">Home</a>
+              <a class="nav-link js-scroll active" href="index.html#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="./index.html#about">About</a>
+              <a class="nav-link js-scroll" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="./index.html#service"
-                >Services</a
-              >
+              <a class="nav-link js-scroll" href="index.html#service">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="./index.html#work">Work</a>
+              <a class="nav-link js-scroll" href="index.html#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="./index.html#blog">Blog</a>
+              <a class="nav-link js-scroll" href="./blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="./index.html#contact"
-                >Contact</a
-              >
+              <a class="nav-link js-scroll" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -94,294 +87,638 @@
     </nav>
     <!--/ Nav End /-->
 
+              <!----------------------------------------------------------------------------------------------------------------->
+              <script src='./services.js'></script>
+
     <!--/ Intro Skew Star /-->
     <div
-      class="intro intro-single route bg-image"
-      style="background-image: url(img/overlay-bg.jpg);"
+      id="home"
+      class="intro route bg-image"
+      style="background-image: url(img/intro-bg.jpg);"
     >
-      <div class="overlay-mf"></div>
+      <div class="overlay-itro"></div>
       <div class="intro-content display-table">
         <div class="table-cell">
           <div class="container">
-            <h2 class="intro-title mb-4">Blog Details</h2>
-            <ol class="breadcrumb d-flex justify-content-center">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li class="breadcrumb-item">
-                <a href="#">Library</a>
-              </li>
-              <li class="breadcrumb-item active">Data</li>
-            </ol>
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="intro-title mb-4">I am <mycolor>Qifex<mycolor></h1>
+            <p class="intro-subtitle">
+              <span class="text-slider-items"
+                >Qifex,Web Development,Web Design,SEO,SMM,Data Analytics,Machine Learning,Digitalization,Consulting</span
+              ><strong class="text-slider my-slide-col"></strong>
+            </p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           </div>
         </div>
       </div>
-    </div>
-    <!--/ Intro Skew End /-->
+    </div>  
 
-    <!--/ Section Blog-Single Star /-->
-    <section class="blog-wrapper sect-pt4" id="blog">
+    <!--/ Section Blog Star /-->
+    <section id="blog" class="blog-mf sect-pt4 route">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <div class="post-box">
-              <div class="post-thumb">
-                <img src="img/post-1.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="post-meta">
-                <h1 class="article-title">
-                  Lorem ipsum dolor sit amet consec tetur adipisicing
-                </h1>
-                <ul>
-                  <li>
-                    <span class="ion-ios-person"></span>
-                    <a href="#">Jason London</a>
-                  </li>
-                  <li>
-                    <span class="ion-pricetag"></span>
-                    <a href="#">Web Design</a>
-                  </li>
-                  <li>
-                    <span class="ion-chatbox"></span>
-                    <a href="#">14</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="article-content">
-                <p>
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                  Cras ultricies ligula sed magna dictum porta. Quisque velit
-                  nisi, pretium ut lacinia in, elementum id enim. Praesent
-                  sapien massa, convallis a pellentesque nec, egestas non nisi.
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae; Donec velit neque, auctor sit
-                  amet aliquam vel, ullamcorper sit amet ligula. Nulla quis
-                  lorem ut libero malesuada feugiat.
-                </p>
-                <p>
-                  Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed
-                  magna dictum porta. Mauris blandit aliquet elit, eget
-                  tincidunt nibh pulvinar a. Cras ultricies ligula sed magna
-                  dictum porta. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Donec sollicitudin molestie malesuada.
-                </p>
-                <p>
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent sapien massa, convallis a pellentesque nec, egestas
-                  non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                  at sem. Donec rutrum congue leo eget malesuada.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  quis lorem ut libero malesuada feugiat. Curabitur arcu erat,
-                  accumsan id imperdiet et, porttitor at sem. Vivamus suscipit
-                  tortor eget felis porttitor volutpat. Vivamus suscipit tortor
-                  eget felis porttitor volutpat. Quisque velit nisi, pretium ut
-                  lacinia in, elementum id enim.
-                </p>
-                <blockquote class="blockquote">
-                  <p class="mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.
-                  </p>
-                </blockquote>
-                <p>
-                  Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed
-                  magna dictum porta. Mauris blandit aliquet elit, eget
-                  tincidunt nibh pulvinar a. Cras ultricies ligula sed magna
-                  dictum porta. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Donec sollicitudin molestie malesuada.
-                </p>
-              </div>
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Blog
+              </h3>
+              <p class="subtitle-a">
+                Learn With us and Find New Possibilities.
+              </p>
+              <div class="line-mf"></div>
             </div>
-            <div class="box-comments">
-              <div class="title-box-2">
-                <h4 class="title-comments title-left">Comments (34)</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-1.jpg" alt="" class="img-fluid"
+                /></a>
               </div>
-              <ul class="list-comments">
-                <li>
-                  <div class="comment-avatar">
-                    <img src="img/testimonial-2.jpg" alt="" />
-                  </div>
-                  <div class="comment-details">
-                    <h4 class="comment-author">Oliver Colmenares</h4>
-                    <span>18 Sep 2017</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Dolores reprehenderit, provident cumque ipsam temporibus
-                      maiores quae natus libero optio, at qui beatae ducimus
-                      placeat debitis voluptates amet corporis.
-                    </p>
-                    <a href="3">Reply</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="form-comments">
-              <div class="title-box-2">
-                <h3 class="title-left">
-                  Leave a Reply
-                </h3>
-              </div>
-              <form class="form-mf">
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control input-mf"
-                        id="inputName"
-                        placeholder="Name *"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control input-mf"
-                        id="inputEmail1"
-                        placeholder="Email *"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <input
-                        type="url"
-                        class="form-control input-mf"
-                        id="inputUrl"
-                        placeholder="Website"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <textarea
-                        id="textMessage"
-                        class="form-control input-mf"
-                        placeholder="Comment *"
-                        name="message"
-                        cols="45"
-                        rows="8"
-                        required
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <button
-                      type="submit"
-                      class="button button-a button-big button-rouded"
-                    >
-                      Send Message
-                    </button>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
                   </div>
                 </div>
-              </form>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="widget-sidebar sidebar-search">
-              <h5 class="sidebar-title">Search</h5>
-              <div class="sidebar-content">
-                <form>
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Search for..."
-                      aria-label="Search for..."
-                    />
-                    <span class="input-group-btn">
-                      <button
-                        class="btn btn-secondary btn-search"
-                        type="button"
-                      >
-                        <span class="ion-android-search"></span>
-                      </button>
-                    </span>
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-2.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
                   </div>
-                </form>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
               </div>
             </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Recent Post</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">Atque placeat maiores.</a>
-                  </li>
-                  <li>
-                    <a href="#">Lorem ipsum dolor sit amet consectetur</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
               </div>
             </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Archives</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">September, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">April, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
               </div>
             </div>
-            <div class="widget-sidebar widget-tags">
-              <h5 class="sidebar-title">Tags</h5>
-              <div class="sidebar-content">
-                <ul>
-                  <li>
-                    <a href="#">Web.</a>
-                  </li>
-                  <li>
-                    <a href="#">Design.</a>
-                  </li>
-                  <li>
-                    <a href="#">Travel.</a>
-                  </li>
-                  <li>
-                    <a href="#">Photoshop</a>
-                  </li>
-                  <li>
-                    <a href="#">Corel Draw</a>
-                  </li>
-                  <li>
-                    <a href="#">JavaScript</a>
-                  </li>
-                </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog.html"
+                  ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">
+                  <a href="blog.html">See more ideas about Travel</a>
+                </h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      alt=""
+                      class="avatar rounded-circle"
+                    />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--/ Section Blog-Single End /-->
+    <!--/ Section Blog End /-->
 
     <!--/ Section Contact-Footer Star /-->
     <section
@@ -389,14 +726,174 @@
       style="background-image: url(img/overlay-bg.jpg);"
     >
       <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Drop Us a Message
+                      </h5>
+                    </div>
+                    <div>
+                      <form
+                        action=""
+                        method="post"
+                        role="form"
+                        class="contactForm"
+                      >
+                        <div id="sendmessage">
+                          Your message has been sent. Thank you!
+                        </div>
+                        <div id="errormessage"></div>
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                data-rule="minlen:4"
+                                data-msg="Please enter at least 4 chars"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Your Email"
+                                data-rule="email"
+                                data-msg="Please enter a valid email"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                                data-rule="minlen:4"
+                                data-msg="Please enter at least 8 chars of subject"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <textarea
+                                class="form-control"
+                                name="message"
+                                rows="5"
+                                data-rule="required"
+                                data-msg="Please write something for us"
+                                placeholder="Message"
+                              ></textarea>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button
+                              type="submit"
+                              class="button button-a button-big button-rouded"
+                            >
+                              Send Message
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        You are just one step away from success.<br>
+                        Send as a message and we will help you solve your problems with our services.
+                      </p>
+                      <div class='contImg'><img src='./img/message.png' alt='message'></div>
+                      <ul class="list-ico">
+                        <!-- <li>
+                          <span class="ion-ios-location"></span> 329 WASHINGTON
+                          ST BOSTON, MA 02108
+                        </li>
+                        <li>
+                          <span class="ion-ios-telephone"></span> (617) 557-0089
+                        </li> -->
+                        <li>
+                          <span class="ion-email"></span> contact@qifex.xyz
+                        </li>
+                      </ul>
+                      
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="ion-social-facebook"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="ion-social-instagram"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="ion-social-twitter"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <!-- <a href=""
+                            ><span class="ico-circle"
+                              ><i class="ion-social-pinterest"></i></span
+                          ></a>
+                        </li> -->
+                        <li>
+                          <a href=""
+                            ><span class="ico-circle"
+                              ><i class="ion-social-youtube"></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer>
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="copyright-box">
                 <p class="copyright">
-                  &copy; Copyright <strong>Qifex</strong>. All Rights Reserved
+                  &copy; Copyright <strong>Qifex</strong>. All Rights
+                  Reserved
                 </p>
+
               </div>
             </div>
           </div>

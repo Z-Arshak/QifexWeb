@@ -1287,3 +1287,12 @@ mycolor {
   height: 40vh;
   width: 40vh;
 }
+
+.myCol {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+.myCol a {
+  color: red !important;
+}
