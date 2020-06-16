@@ -89,7 +89,7 @@
             <li class="nav-item">
               <a class="nav-link js-scroll" href="../index.html#blog">Blog</a>
             </li>
-            <li class="nav-item cont">
+            <li class="nav-item">
               <a class="nav-link js-scroll" href="../index.html#contact"
                 >Contact</a
               >
@@ -109,15 +109,15 @@
       <div class="intro-content display-table">
         <div class="table-cell">
           <div class="container">
-            <h2 class="intro-title mb-4">Our Services - SEO</h2>
+            <h2 class="intro-title mb-4">Blog Details</h2>
             <ol class="breadcrumb d-flex justify-content-center">
               <li class="breadcrumb-item">
                 <a href="#">Home</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="#">Services</a>
+                <a href="#">Library</a>
               </li>
-              <li class="breadcrumb-item active">SEO</li>
+              <li class="breadcrumb-item active">Data</li>
             </ol>
           </div>
         </div>
@@ -138,6 +138,20 @@
                 <h1 class="article-title">
                   Lorem ipsum dolor sit amet consec tetur adipisicing
                 </h1>
+                <ul>
+                  <li>
+                    <span class="ion-ios-person"></span>
+                    <a href="#">Jason London</a>
+                  </li>
+                  <li>
+                    <span class="ion-pricetag"></span>
+                    <a href="#">Web Design</a>
+                  </li>
+                  <li>
+                    <span class="ion-chatbox"></span>
+                    <a href="#">14</a>
+                  </li>
+                </ul>
               </div>
               <div class="article-content">
                 <p>
@@ -188,71 +202,80 @@
                 </p>
               </div>
             </div>
+            <div class="box-comments">
+              <div class="title-box-2">
+                <h4 class="title-comments title-left">Comments (34)</h4>
+              </div>
+              <ul class="list-comments">
+                <li>
+                  <div class="comment-avatar">
+                    <img src="../img/testimonial-2.jpg" alt="" />
+                  </div>
+                  <div class="comment-details">
+                    <h4 class="comment-author">Oliver Colmenares</h4>
+                    <span>18 Sep 2017</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Dolores reprehenderit, provident cumque ipsam temporibus
+                      maiores quae natus libero optio, at qui beatae ducimus
+                      placeat debitis voluptates amet corporis.
+                    </p>
+                    <a href="3">Reply</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <div class="form-comments">
               <div class="title-box-2">
                 <h3 class="title-left">
-                  Drop Us a Message
+                  Leave a Reply
                 </h3>
               </div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div id="sendmessage">
-                  Your message has been sent. Thank you!
-                </div>
-                <div id="errormessage"></div>
+              <form class="form-mf">
                 <div class="row">
-                  <div class="col-md-12 mb-3">
+                  <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <input
                         type="text"
-                        name="name"
-                        class="form-control"
-                        id="name"
-                        placeholder="Your Name"
-                        data-rule="minlen:4"
-                        data-msg="Please enter at least 4 chars"
+                        class="form-control input-mf"
+                        id="inputName"
+                        placeholder="Name *"
+                        required
                       />
-                      <div class="validation"></div>
                     </div>
                   </div>
-                  <div class="col-md-12 mb-3">
+                  <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <input
                         type="email"
-                        class="form-control"
-                        name="email"
-                        id="email"
-                        placeholder="Your Email"
-                        data-rule="email"
-                        data-msg="Please enter a valid email"
+                        class="form-control input-mf"
+                        id="inputEmail1"
+                        placeholder="Email *"
+                        required
                       />
-                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
                       <input
-                        type="text"
-                        class="form-control"
-                        name="subject"
-                        id="subject"
-                        placeholder="Subject"
-                        data-rule="minlen:4"
-                        data-msg="Please enter at least 8 chars of subject"
+                        type="url"
+                        class="form-control input-mf"
+                        id="inputUrl"
+                        placeholder="Website"
                       />
-                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
                       <textarea
-                        class="form-control"
+                        id="textMessage"
+                        class="form-control input-mf"
+                        placeholder="Comment *"
                         name="message"
-                        rows="5"
-                        data-rule="required"
-                        data-msg="Please write something for us"
-                        placeholder="Message"
+                        cols="45"
+                        rows="8"
+                        required
                       ></textarea>
-                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -268,7 +291,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <!-- <div class="widget-sidebar sidebar-search">
+            <div class="widget-sidebar sidebar-search">
               <h5 class="sidebar-title">Search</h5>
               <div class="sidebar-content">
                 <form>
@@ -290,63 +313,47 @@
                   </div>
                 </form>
               </div>
-            </div> -->
+            </div>
             <div class="widget-sidebar">
-              <h5 class="sidebar-title">Our Services</h5>
+              <h5 class="sidebar-title">Recent Post</h5>
               <div class="sidebar-content">
                 <ul class="list-sidebar">
                   <li>
-                    <a href="./web-design.html">Web Design</a>
+                    <a href="#">Atque placeat maiores.</a>
                   </li>
                   <li>
-                    <a href="./web-development.html">Web Development</a>
+                    <a href="#">Lorem ipsum dolor sit amet consectetur</a>
                   </li>
                   <li>
-                    <a href="./seo.html">SEO</a>
+                    <a href="#">Nam quo autem exercitationem.</a>
                   </li>
                   <li>
-                    <a href="./smm.html">SMM</a>
+                    <a href="#">Atque placeat maiores nam quo autem</a>
                   </li>
                   <li>
-                    <a href="./data-analyzes.html">Data Analyzes</a>
-                  </li>
-                  <li>
-                    <a href="./machine-learning.html">Machine Learning</a>
-                  </li>
-                  <li>
-                    <a href="./digitalization.html">DIGITALIZATION / RPA</a>
-                  </li>
-                  <li>
-                    <a href="./consulting.html">Consulting</a>
+                    <a href="#">Nam quo autem exercitationem.</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="widget-sidebar">
-              <h5 class="sidebar-title">Blog</h5>
+              <h5 class="sidebar-title">Archives</h5>
               <div class="sidebar-content">
                 <ul class="list-sidebar">
                   <li>
-                    <a href="./how-to-be-visible-in-google.html"
-                      >How to be visible in Google search?</a
-                    >
+                    <a href="#">September, 2017.</a>
                   </li>
                   <li>
-                    <a href="./your-data-tells-more-than-you-can-imagine.html"
-                      >Your data tells more than you can imagine</a
-                    >
+                    <a href="#">April, 2017.</a>
                   </li>
                   <li>
-                    <a
-                      href="./you-are-loosing-customers-because-of-bad-webistes.html"
-                      >You are loosing customers because of bad webistes!</a
-                    >
+                    <a href="#">Nam quo autem exercitationem.</a>
                   </li>
                   <li>
-                    <a
-                      href="./make-your-processes-be-faster-and-save-money.html"
-                      >Make your processes be faster and save money</a
-                    >
+                    <a href="#">Atque placeat maiores nam quo autem</a>
+                  </li>
+                  <li>
+                    <a href="#">Nam quo autem exercitationem.</a>
                   </li>
                 </ul>
               </div>
@@ -362,16 +369,16 @@
                     <a href="#">Design.</a>
                   </li>
                   <li>
-                    <a href="#">SEO</a>
+                    <a href="#">Travel.</a>
                   </li>
                   <li>
-                    <a href="#">Analytics</a>
+                    <a href="#">Photoshop</a>
+                  </li>
+                  <li>
+                    <a href="#">Corel Draw</a>
                   </li>
                   <li>
                     <a href="#">JavaScript</a>
-                  </li>
-                  <li>
-                    <a href="#">Python</a>
                   </li>
                 </ul>
               </div>
