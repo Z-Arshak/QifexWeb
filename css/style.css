@@ -1308,7 +1308,7 @@ mycolor {
 @media (min-width: 767px) {
   .myCol {
     margin: auto;
-    padding-top: 1.3vh;
+    padding-top: 1.15vh;
     max-width: 15vw;
     height: 7vh;
     border-radius: 10px;
@@ -1348,4 +1348,8 @@ mycolor {
 .cont {
   background: #fc0339;
   border-radius: 10px;
+}
+
+.cont a {
+  color: #fff !important;
 }
