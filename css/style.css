@@ -1305,7 +1305,7 @@ mycolor {
   font-weight: 600;
 } */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .myCol {
     margin: auto;
     padding-top: 1.15vh;
@@ -1323,9 +1323,18 @@ mycolor {
     overflow: hidden;
     font-weight: 600;
   }
+
+  .cont {
+    background: #fc0339;
+    border-radius: 10px;
+  }
+
+  .cont a {
+    color: #fff !important;
+  }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .myCol {
     margin: auto;
     padding-top: 1.3vh;
@@ -1343,13 +1352,4 @@ mycolor {
     overflow: hidden;
     font-weight: 600;
   }
-}
-
-.cont {
-  background: #fc0339;
-  border-radius: 10px;
-}
-
-.cont a {
-  color: #fff !important;
 }
