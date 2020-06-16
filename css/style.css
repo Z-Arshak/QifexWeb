@@ -1288,7 +1288,7 @@ mycolor {
   width: 40vh;
 }
 
-.myCol {
+/* .myCol {
   margin: auto;
   padding-top: 1.3vh;
   max-width: 15vw;
@@ -1297,10 +1297,55 @@ mycolor {
 
   text-align: center;
   background: #ffc000;
-}
-.myCol a {
+} */
+/* .myCol a {
   color: #ffff;
   font-size: 1.5vw;
   overflow: hidden;
   font-weight: 600;
+} */
+
+@media (min-width: 767px) {
+  .myCol {
+    margin: auto;
+    padding-top: 1.3vh;
+    max-width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+
+    text-align: center;
+    background: #ffc000;
+  }
+
+  .myCol a {
+    color: #ffff;
+    font-size: 1.5vw;
+    overflow: hidden;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 766px) {
+  .myCol {
+    margin: auto;
+    padding-top: 1.3vh;
+    max-width: 50vw;
+    height: 7vh;
+    border-radius: 10px;
+
+    text-align: center;
+    background: #ffc000;
+  }
+
+  .myCol a {
+    color: #ffff;
+    font-size: 6vw;
+    overflow: hidden;
+    font-weight: 600;
+  }
+}
+
+.cont {
+  background: #fc0339;
+  border-radius: 10px;
 }
