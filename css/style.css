@@ -1288,23 +1288,6 @@ mycolor {
   width: 40vh;
 }
 
-/* .myCol {
-  margin: auto;
-  padding-top: 1.3vh;
-  max-width: 15vw;
-  height: 7vh;
-  border-radius: 10px;
-
-  text-align: center;
-  background: #ffc000;
-} */
-/* .myCol a {
-  color: #ffff;
-  font-size: 1.5vw;
-  overflow: hidden;
-  font-weight: 600;
-} */
-
 @media (min-width: 768px) {
   .myCol {
     margin: auto;
