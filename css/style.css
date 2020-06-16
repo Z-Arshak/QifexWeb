@@ -1289,10 +1289,18 @@ mycolor {
 }
 
 .myCol {
-  font-size: 1.5em;
-  font-weight: 600;
+  margin: auto;
+  padding-top: 1.3vh;
+  max-width: 15vw;
+  height: 7vh;
+  border-radius: 10px;
+
   text-align: center;
+  background: #ffc000;
 }
 .myCol a {
-  color: red !important;
+  color: #ffff;
+  font-size: 1.5vw;
+  overflow: hidden;
+  font-weight: 600;
 }
