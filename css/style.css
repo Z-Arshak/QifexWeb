@@ -1336,3 +1336,7 @@ mycolor {
     font-weight: 600;
   }
 }
+
+.brand-name {
+  font-family: "MuseoModerno", cursive;
+}
